@@ -50,7 +50,7 @@ const Home = (): JSX.Element => {
     }
 
     loadProducts();
-  }, [cartItemsAmount]);
+  }, []);
 
   function handleAddProduct(id: number) {
     addProduct(id);
